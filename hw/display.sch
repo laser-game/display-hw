@@ -9,7 +9,7 @@ Title "Display"
 Date "2018-04-01"
 Rev "2"
 Comp "wykys"
-Comment1 ""
+Comment1 "do not mount components R2, R3 and RV1, only for versatility"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -767,4 +767,16 @@ Wire Wire Line
 Connection ~ 1000 2400
 Wire Wire Line
 	1000 2400 650  2400
+Wire Notes Line
+	3450 4400 3450 4050
+Wire Notes Line
+	3450 4050 3600 4050
+Wire Notes Line
+	3600 4050 3600 3600
+Wire Notes Line
+	3600 3600 2900 3600
+Wire Notes Line
+	2900 3600 2900 4400
+Wire Notes Line
+	2900 4400 3450 4400
 $EndSCHEMATC
