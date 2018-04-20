@@ -26,17 +26,6 @@ F 3 "" H 1250 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KLIB_Display:RC1602B U1
-U 1 1 5ABEE4F3
-P 1250 4250
-F 0 "U1" H 1250 5350 50  0000 C CNN
-F 1 "RC1602B" H 1250 5250 50  0000 C CNN
-F 2 "Display:WC1602A" H 1600 3550 50  0001 C CNN
-F 3 "https://www.tme.eu/cz/Document/80bdbedf6bf0a19df5cdc5be2a2c033c/RC1602B-LLB-JWVE.pdf" H 1350 4150 50  0001 C CNN
-	1    1250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L KLIB_Power:GND #PWR04
 U 1 1 5ABEEAEB
 P 2150 4950
@@ -278,17 +267,6 @@ Wire Wire Line
 	1100 2300 650  2300
 Text Label 650  2300 0    50   ~ 0
 R~W
-$Comp
-L KLIB_Connector_IDC:IDC_02X03 J1
-U 1 1 5AD5A855
-P 6750 900
-F 0 "J1" H 6750 1242 50  0000 C CNN
-F 1 "IDC_02X03" H 6750 1151 50  0000 C CNN
-F 2 "Connectors:IDC_Header_Straight_6pins" V 7300 900 50  0001 C CNN
-F 3 "~" V 7250 900 50  0001 C CNN
-	1    6750 900 
-	1    0    0    -1  
-$EndComp
 $Comp
 L KLIB_Power:GND #PWR014
 U 1 1 5AD5A906
@@ -705,5 +683,27 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 4850 50  0001 C CNN
 F 3 "https://www.tme.eu/cz/details/ao3400a/tranzistory-s-kanalem-n-smd/alpha-omega-semiconductor/" H 1900 4750 50  0001 C CNN
 	1    1900 4750
 	0    -1   -1   0   
+$EndComp
+$Comp
+L KLIB_Connector_IDC:IDC_02X03 J1
+U 1 1 5AF01E77
+P 6750 900
+F 0 "J1" H 6750 1242 50  0000 C CNN
+F 1 "IDC_02X03" H 6750 1151 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 7300 900 50  0001 C CNN
+F 3 "~" V 7250 900 50  0001 C CNN
+	1    6750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Display:RC1602B U1
+U 1 1 5AD955BE
+P 1250 4250
+F 0 "U1" H 1500 5050 50  0000 L CNN
+F 1 "RC1602B" H 1500 4950 50  0000 L CNN
+F 2 "KLIB_Display:RC1602B" H 1300 3550 50  0001 L CNN
+F 3 "https://www.tme.eu/cz/Document/80bdbedf6bf0a19df5cdc5be2a2c033c/RC1602B-LLB-JWVE.pdf" H 1350 4050 50  0001 C CNN
+	1    1250 4250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
