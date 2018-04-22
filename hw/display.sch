@@ -592,7 +592,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4150 2650 3550
 $Comp
-L Device:POT RV1
+L Device:R_POT RV1
 U 1 1 5AE66D20
 P 3350 3950
 F 0 "RV1" H 3281 3996 50  0000 R CNN
