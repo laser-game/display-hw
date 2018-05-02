@@ -1,0 +1,15 @@
+ID,Určovatel,Pouzdro,Množství,Určení,Poznámka
+1,U1,RC1602B,1,RC1602B,
+2,U2,TSSOP-20_4.4x6.5mm_P0.65mm,1,STM32F042F6Px,
+3,"C2,C3,C1",C_0805_2012Metric,3,100n X7R,
+4,C4,C_0805_2012Metric,1,1u/50V X7R,
+5,C5,CP_EIA-3528-21_Kemet-B,1,47u/10V,
+6,J1,IDC-Header_2x03_P2.54mm_Vertical,1,IDC_02X03,
+7,J2,PinHeader_1x04_P2.54mm_Vertical,1,SWD_01X04,
+8,"JP2,JP1",SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,2,SolderJumper_3_Open,jumper na desce
+9,"H4,H3,H2,H1",Bolt_M3,4,M3,
+10,Q1,SOT-23,1,AO3400A,
+11,RV1,"Potentiometer_ACP_CA9-H3,8_Horizontal",1,10k,neosazovat
+12,R3,R_0805_2012Metric,1,BOT,neosazovat
+13,R1,R_0805_2012Metric,1,10k,
+14,R2,R_0805_2012Metric,1,TOP,neosazovat

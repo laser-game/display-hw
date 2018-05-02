@@ -22,3 +22,7 @@ _autosave-*
 
 # Exported data
 *.pdf
+
+# Exception for fabrication
+!fab/*.csv
+!fab/*.pdf
